@@ -1,0 +1,172 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Pmpml.master.cs" Inherits="PMPMLpage.Pmpml" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>PMPML</title>
+    <meta name="description" content="Pune Mahanagar Parivahan Mahamandal Limited" />
+    <meta name="keywords" content="PMPML" />
+    <meta name="robots" content="all, follow" />
+    <meta name="author" content="IMC" />
+    <meta name="copyright" content="PMPML" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-Script-Type" content="text/javascript" />
+    <meta http-equiv="content-type" content="text/html" charset="utf-8" />
+
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="content/css/bootstrap.css" media="screen, projection, tv" />
+    <link rel="stylesheet" type="text/css" href="content/css/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="content/css/site.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="content/img/favicon(1).ico" />
+	<link href="Content/css/jquery-ui.css" rel="stylesheet" type="text/css" />
+
+    <!--script-->
+    <script src="<%=ResolveUrl("Scripts/respond.min.js")%>" type="text/javascript"></script>
+    <script src="<%=ResolveUrl("content/js/bootstrap.min.js")%>" type="text/javascript"></script>
+    <script src="<%=ResolveUrl("content/js/npm.js")%>" type="text/javascript"></script>
+    <script src="<%=ResolveUrl("Scripts/bootstrap/jquery-1.9.1.min.js")%>" type="text/javascript"></script>
+		<script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.9.1/jquery-ui.min.js" type="text/javascript"></script>
+    <!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <!--header-->
+            <%--<header class="headerContainer">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="searchbox">
+								<input type="text" class="search" onfocus="if(this.value==this.defaultValue)this.value=''" onblur="if(this.value=='')this.value=this.defaultValue" placeholder="Search" />
+								<span class="glyphicon glyphicon-search" style="position: absolute; right: 12px; top: 15px;"></span>
+							</div>
+							<nav class="language pull-right"><a href="#">English</a> | <a href="#">Marathi</a></nav>
+						</div>
+					</div>
+				</div>
+			</header>--%>
+
+            <!--logo-->
+            <div class="logoContainer">
+               <img src="content/img/PMPMP-logo.jpg" width="107" height="78" alt=""  class="pmpmllogo" />
+                PUNE MAHANAGAR PARIVAHAN MAHAMANDAL LIMITED.
+		<img src="content/img/PMPMP-logo.jpg" width="107" height="78" alt=""  class="pmpmllogo" />
+            </div>
+
+            <div class="mainNavigation">
+
+                <nav><a href="Home.aspx" class="active">Home</a> <a href="AboutUs.aspx" class="active">About us</a> <a href="BRT.aspx" class="active">BRTS</a> <a href="Tender.aspx" class="active">Tender</a> <a href="DarshanCharges.aspx" class="active">Pune Darshan</a> <a href="HireABus.aspx" class="active">Hire a Bus</a> <a href="TicketPrices.aspx" class="active">Fare Structure</a><a href="RTI.aspx" class="active">RTI</a> </nav>
+
+            </div>
+
+            <div class="mainContainer clearfix">
+                <div class="container-fluid">
+                    <div class="row">
+                        <!--left panel-->
+                        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                            <div class="mainContainerRepeatBox">
+                                <h4>About us</h4>
+                                <ul>
+                                    <li class="col-xs-12"><a href="AboutUs.aspx" class="active">PMPML</a></li>
+                                    <li class="col-xs-12"><a href="Director.aspx" class="active">Board of Directors</a></li>
+                                    <li class="col-xs-12"><a href="OrgStructure.aspx" class="active">Organization Structure</a></li>
+                                    <li class="col-xs-12"><a href="Depots.aspx" class="active">Depots</a></li>
+                                </ul>
+                            </div>
+                            <div class="mainContainerRepeatBox">
+                                <h4>Fare Structure</h4>
+                                <ul>
+                                    <li class="col-xs-12"><a href="TicketPrices.aspx" class="active">Ticket Prices</a></li>
+                                    <li class="col-xs-12"><a href="Pass_Info.aspx" class="active">Bus Pass</a></li>
+                                    <li class="col-xs-12"><a href="Content/pdf/Passcentres.pdf" target="_blank" class="active">Pass Centres</a></li>
+                                </ul>
+                            </div>
+                            <div class="mainContainerRepeatBox">
+                                <h4><a href="https://www.facebook.com/pmpml.org" target="_blank">Social Media</a></h4>
+                            </div>
+                            <%--div class="mainContainerRepeatBox">
+								<h4>Lost and Found</h4>
+							</div>--%>
+                        </div>
+                        <!--MAIN content-->
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                        </asp:ContentPlaceHolder>
+                        <!--Right panel-->
+                        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                            <div class="mainContainerRepeatBox">
+                                <h4>Citizen's Corner</h4>
+                                <ul>
+                                    <li class="col-xs-12"><a href="FAQ's.aspx" class="active">FAQ's</a></li>
+                                    <li class="col-xs-12"><a href="RTI.aspx" class="active">RTI</a></li>
+                                    <li class="col-xs-12"><a href="Content/pdf/Pravshi_din-15.docx">Pravasi Din</a></li>
+                                    <li class="col-xs-12"><a href="Complaint.aspx">Complaints</a></li>
+                                    <li class="col-xs-12"><a href="Downloads.aspx">Downloads</a></li>
+                                </ul>
+                            </div>
+                            <div class="mainContainerRepeatBox">
+                                <h4>Rainbow BRTS</h4>
+                                <ul>
+                                    <li class="col-xs-12"><a href="BRT.aspx" class="active">About BRTS</a></li>
+                                    <li class="col-xs-12"><a href="Link_BRT.aspx" class="active">Links</a></li>
+                                    <li class="col-xs-12"><a href="Content/pdf/brt_FAQ.pdf" target="_blank" class="active">FAQ's</a></li>
+                                </ul>
+                            </div>
+                            <div class="mainContainerRepeatBox">
+                                <h4><a href="DarshanCharges.aspx" class="active">Pune Darshan</a></h4>
+                            </div>
+                            <div class="mainContainerRepeatBox">
+                                <h4><a href="HireABus.aspx" class="active">Hire a Bus</a></h4>
+                            </div>
+                            <div class="mainContainerRepeatBox">
+                                <h4>Special Services</h4>
+                                <ul>
+                                    <li class="col-xs-12"><a href="NightService.aspx" class="active">Night Services</a></li>
+                                    <li class="col-xs-12"><a href="AirportServices.aspx" class="active">Airport Services</a></li>
+                                    <%--<li class="col-xs-12"><a href="#">Pushpak</a></li>
+									<li class="col-xs-12"><a href="#">Hoarse Van</a></li>--%>
+                                    <li class="col-xs-12"><a href="DarshanCharges.aspx" class="active">Pune Tourism</a></li>
+                                </ul>
+                            </div>
+                            <div class="mainContainerRepeatBox">
+                                <h4><a href="Tender.aspx" class="active">Tender</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <!--footer-->
+            <footer>
+                <div class="container-fluid">
+                    <div class="row footer3">
+                        <div class="col-lg-12">
+                            NOTE:- This is a Beta version release. We do not take responsibility for the accuracy of the data on website or Plan Your Journey data. We would soon upgrade information on website in further releases. Stay Tuned!
+                        </div>
+                    </div>
+                    <div class="row footer1">
+                        <div class="col-lg-12">
+                            <nav><a href="Copyright.aspx" class="active">Copyright Policy © 2015-2016</a>|<a href="Disclaimer.aspx" class="active">Disclaimer</a>|<a href="Hyperlink.aspx" class="active">Hyperlink Policy</a>|<a href="Privacy.aspx" class="active">Privacy Policy</a>|<a href="TermsCond.aspx" class="active">Terms &amp; Conditions</a>|<a href="ContactUs.aspx" class="active">Contact Us</a></nav>
+                            <p>Website Designed, Developed, Hosted &amp; maintained by <a href="https://www.facebook.com/smartcitypune" target="_blank">iMC </a>&amp; <a href="http://parivartan-pune.blogspot.in/" target="_blank">Parivartan</a> Content provided by Pune Mahanagar Parivahan Mahamandal Limited, Government of Maharashtra.</p>
+                        </div>
+                    </div>
+                    <div class="row footer2">
+                        <div class="col-lg-12">
+                            Total Visitor count:
+        <pre><asp:Label ID="lblCount" runat="server"/></pre>
+                            Today's Visitor count:
+        <pre><asp:Label ID="lblToday" runat="server" /></pre>
+                            Share on Facebook <a href="https://www.facebook.com/pmpml.org" target="_blank">
+                                <img src="content/img/facebook.png" width="19" height="19" alt="" /></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
+<%--  --%>

@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3B2F7CFB-E3D9-4914-9130-C23757A17E6E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PMPMLpage</RootNamespace>
+    <AssemblyName>PMPMLpage</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AboutUs.aspx" />
+    <Content Include="AirportServices.aspx" />
+    <Content Include="App_Data\AllRoutes.txt" />
+    <Content Include="App_Data\FinalListOfPuneBusStops.txt" />
+    <Content Include="App_Data\FinalListOfRoutesWithBusStops.txt" />
+    <Content Include="App_Data\FinalRoutesInfo.txt" />
+    <Content Include="App_Data\PuneBuses.txt" />
+    <Content Include="App_Data\PuneBuseStops.txt" />
+    <Content Include="BRT.aspx" />
+    <Content Include="Complaint.aspx" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="Content\css\boilerplate.css" />
+    <Content Include="Content\css\bootstrap-theme.css" />
+    <Content Include="Content\css\bootstrap-theme.min.css" />
+    <Content Include="Content\css\bootstrap.css" />
+    <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\jquery-ui.css" />
+    <Content Include="Content\css\layout.css" />
+    <Content Include="Content\css\site.css" />
+    <Content Include="Content\imagespmpml\Ashwini.png" />
+    <Content Include="Content\imagespmpml\Atul.png" />
+    <Content Include="Content\imagespmpml\Madane.jpg" />
+    <Content Include="Content\imagespmpml\Omprakash Bakoria.jpeg" />
+    <Content Include="Content\imagespmpml\org_structure.png" />
+    <Content Include="Content\imagespmpml\underconstruction.png" />
+    <Content Include="Content\imagespmpml\Vijay.png" />
+    <Content Include="Content\imagespmpml\AbhayDamle.jpg" />
+    <Content Include="Content\imagespmpml\BRT_1.jpg" />
+    <Content Include="Content\imagespmpml\BRT_2.jpg" />
+    <Content Include="Content\imagespmpml\BRT_3.jpg" />
+    <Content Include="Content\imagespmpml\BRT_4.jpg" />
+    <Content Include="Content\imagespmpml\Burse.jpg" />
+    <Content Include="Content\imagespmpml\dattatray_dhankavde.jpg" />
+    <Content Include="Content\imagespmpml\deepak.jpg" />
+    <Content Include="Content\imagespmpml\Dharurkar.jpg" />
+    <Content Include="Content\imagespmpml\Dr_Shrikar_Pardeshi.jpg" />
+    <Content Include="Content\imagespmpml\JitendraPatil.jpg" />
+    <Content Include="Content\imagespmpml\kunal_kumar.jpg" />
+    <Content Include="Content\imagespmpml\mane.jpg" />
+    <Content Include="Content\imagespmpml\mayura.jpg" />
+    <Content Include="Content\imagespmpml\Mr_Rajeev_Jadhav.jpg" />
+    <Content Include="Content\imagespmpml\pankaj_giri.jpg" />
+    <Content Include="Content\imagespmpml\Pardeshi.jpg" />
+    <Content Include="Content\imagespmpml\passes_NEW.jpg" />
+    <Content Include="Content\imagespmpml\Pravin.jpg" />
+    <Content Include="Content\imagespmpml\shakuntala_dharade.jpg" />
+    <Content Include="Content\imagespmpml\Sunil.jpg" />
+    <Content Include="Content\img\android.png" />
+    <Content Include="Content\img\arrow.png" />
+    <Content Include="Content\img\background-box.png" />
+    <Content Include="Content\img\brt1.png" />
+    <Content Include="Content\img\calendar.gif" />
+    <Content Include="Content\img\click-here-button.png" />
+    <Content Include="Content\img\coming-soon.png" />
+    <Content Include="Content\img\detail-information.png" />
+    <Content Include="Content\img\DSC_5735.JPG" />
+    <Content Include="Content\img\DSC_5757.JPG" />
+    <Content Include="Content\img\DSC_5771.JPG" />
+    <Content Include="Content\img\emblem.png" />
+    <Content Include="Content\img\facebook.png" />
+    <Content Include="Content\img\favicon%281%29.ico" />
+    <Content Include="Content\img\header-bar.png" />
+    <Content Include="Content\img\help-line.png" />
+    <Content Include="Content\img\image-04.png" />
+    <Content Include="Content\img\image01.png" />
+    <Content Include="Content\img\image02.png" />
+    <Content Include="Content\img\image03.png" />
+    <Content Include="Content\img\image04.png" />
+    <Content Include="Content\img\IMG_1017.JPG" />
+    <Content Include="Content\img\IMG_1063.JPG" />
+    <Content Include="Content\img\new.png" />
+    <Content Include="Content\img\pdf.gif" />
+    <Content Include="Content\img\plan-a--journey-.png" />
+    <Content Include="Content\img\plan-a--journey-button.png" />
+    <Content Include="Content\img\PMPMP-logo.jpg" />
+    <Content Include="Content\img\rainbow.jpg" />
+    <Content Include="Content\img\Routes-&amp;-Timetable-icon.png" />
+    <Content Include="Content\img\Search-box.png" />
+    <Content Include="Content\img\twitter.png" />
+    <Content Include="Content\js\bootstrap.js" />
+    <Content Include="Content\js\bootstrap.min.js" />
+    <Content Include="Content\js\npm.js" />
+    <Content Include="Copyright.aspx" />
+    <Content Include="DarshanCharges.aspx" />
+    <Content Include="Depot.aspx" />
+    <Content Include="Director.aspx" />
+    <Content Include="Disclaimer.aspx" />
+    <Content Include="Downloads.aspx" />
+    <Content Include="FAQ%27s.aspx" />
+    <Content Include="FareStructure.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="HireABus.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="Hyperlink.aspx" />
+    <Content Include="Link_BRT.aspx" />
+    <Content Include="Marathi\MrAirportServices.aspx" />
+    <Content Include="Marathi\MrBRT.aspx" />
+    <Content Include="Marathi\MrComplaint.aspx" />
+    <Content Include="Marathi\MrFAQ%27s.aspx" />
+    <Content Include="Marathi\MrHireABus.aspx" />
+    <Content Include="Marathi\MrMonthlyCharges.aspx" />
+    <Content Include="Marathi\MrPassRates.aspx" />
+    <Content Include="Marathi\MrPass_Info.aspx" />
+    <Content Include="Marathi\MrRTI.aspx" />
+    <Content Include="Marathi\MrTicketPrices.aspx" />
+    <Content Include="MonthlyCharges.aspx" />
+    <Content Include="NightService.aspx" />
+    <Content Include="OrgStructure.aspx" />
+    <Content Include="PassRates.aspx" />
+    <Content Include="Pass_Info.aspx" />
+    <Content Include="Privacy.aspx" />
+    <Content Include="RTI.aspx" />
+    <Content Include="RTIinfo.aspx" />
+    <Content Include="Scripts\bootstrap\bootstrap.js" />
+    <Content Include="Scripts\bootstrap\bootstrap.min.js" />
+    <Content Include="Pmpml.Master" />
+    <Content Include="Content\pdf\InformationAct_PMPML.pdf" />
+    <Content Include="Content\pdf\informationact_Accounts.pdf" />
+    <Content Include="Content\pdf\informationact_Admin.pdf" />
+    <Content Include="Content\pdf\informationact_civil.pdf" />
+    <Content Include="Content\pdf\informationact_store.pdf" />
+    <Content Include="Content\pdf\Informationact_workshop.pdf" />
+    <Content Include="Content\pdf\monthlypass.pdf" />
+    <Content Include="Content\pdf\PMPML_JAN_14_NEW.pdf" />
+    <Content Include="Content\pdf\pmtStaff.pdf" />
+    <Content Include="Content\pdf\Budget-07-08_new.pdf" />
+    <Content Include="Content\pdf\pcmtStaff.pdf" />
+    <Content Include="Content\pdf\brt_FAQ.pdf" />
+    <Content Include="Content\pdf\Pass_Form-1.pdf" />
+    <Content Include="Content\pdf\Pass_Form-2.pdf" />
+    <Content Include="Content\pdf\Pass_Form-3.pdf" />
+    <Content Include="Content\pdf\Pass_Form-4.pdf" />
+    <Content Include="Content\pdf\Pass_Form-5.pdf" />
+    <Content Include="Content\pdf\Pass_Form-6.pdf" />
+    <Content Include="Content\pdf\Pass_Form-7.pdf" />
+    <Content Include="Content\pdf\Pravshi_din-15.docx" />
+    <Content Include="Marathi\MrPMPML.Master" />
+    <Content Include="fonts\mangalb_3.ttf" />
+    <Content Include="fonts\mangal_5.ttf" />
+    <Content Include="fonts\Shivaji01.ttf" />
+    <None Include="Properties\PublishProfiles\FixiRoute - FTP %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\FixiRoute - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\FixiRoute - Web Deploy %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\FixiRoute - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\FixiRoute.pubxml" />
+    <None Include="Scripts\bootstrap\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\bootstrap\jquery-1.9.1.js" />
+    <Content Include="Scripts\bootstrap\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\bootstrap\npm.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Tender.aspx" />
+    <Content Include="TermsCond.aspx" />
+    <Content Include="TicketPrices.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AirportServices.aspx.cs">
+      <DependentUpon>AirportServices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AirportServices.aspx.designer.cs">
+      <DependentUpon>AirportServices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BRT.aspx.cs">
+      <DependentUpon>BRT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BRT.aspx.designer.cs">
+      <DependentUpon>BRT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Complaint.aspx.cs">
+      <DependentUpon>Complaint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Complaint.aspx.designer.cs">
+      <DependentUpon>Complaint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Copyright.aspx.cs">
+      <DependentUpon>Copyright.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Copyright.aspx.designer.cs">
+      <DependentUpon>Copyright.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DarshanCharges.aspx.cs">
+      <DependentUpon>DarshanCharges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DarshanCharges.aspx.designer.cs">
+      <DependentUpon>DarshanCharges.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Depot.aspx.cs">
+      <DependentUpon>Depot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Depot.aspx.designer.cs">
+      <DependentUpon>Depot.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Director.aspx.cs">
+      <DependentUpon>Director.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Director.aspx.designer.cs">
+      <DependentUpon>Director.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Disclaimer.aspx.cs">
+      <DependentUpon>Disclaimer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Disclaimer.aspx.designer.cs">
+      <DependentUpon>Disclaimer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Downloads.aspx.cs">
+      <DependentUpon>Downloads.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Downloads.aspx.designer.cs">
+      <DependentUpon>Downloads.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FAQ%27s.aspx.cs">
+      <DependentUpon>FAQ%27s.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FAQ%27s.aspx.designer.cs">
+      <DependentUpon>FAQ%27s.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FareStructure.aspx.cs">
+      <DependentUpon>FareStructure.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FareStructure.aspx.designer.cs">
+      <DependentUpon>FareStructure.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HireABus.aspx.cs">
+      <DependentUpon>HireABus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HireABus.aspx.designer.cs">
+      <DependentUpon>HireABus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hyperlink.aspx.cs">
+      <DependentUpon>Hyperlink.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hyperlink.aspx.designer.cs">
+      <DependentUpon>Hyperlink.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Link_BRT.aspx.cs">
+      <DependentUpon>Link_BRT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Link_BRT.aspx.designer.cs">
+      <DependentUpon>Link_BRT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Marathi\MrAirportServices.aspx.cs">
+      <DependentUpon>MrAirportServices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Marathi\MrAirportServices.aspx.designer.cs">
+      <DependentUpon>MrAirportServices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Marathi\MrBRT.aspx.cs">
+      <DependentUpon>MrBRT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Marathi\MrBRT.aspx.designer.cs">
+      <DependentUpon>MrBRT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Marathi\MrComplaint.aspx.cs">
+      <DependentUpon>MrComplaint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Marathi\MrComplaint.aspx.designer.cs">
+      <DependentUpon>MrComplaint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Marathi\MrFAQ%27s.aspx.cs">
+      <DependentUpon>MrFAQ%27s.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Marathi\MrFAQ%27s.aspx.designer.cs">
+      <DependentUpon>MrFAQ%27s.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Marathi\MrHireABus.aspx.cs">
+      <DependentUpon>MrHireABus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Marathi\MrHireABus.aspx.designer.cs">
+      <DependentUpon>MrHireABus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Marathi\MrMonthlyCharges.aspx.cs">
+      <DependentUpon>MrMonthlyCharges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Marathi\MrMonthlyCharges.aspx.designer.cs">
+      <DependentUpon>MrMonthlyCharges.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Marathi\MrPassRates.aspx.cs">
+      <DependentUpon>MrPassRates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Marathi\MrPassRates.aspx.designer.cs">
+      <DependentUpon>MrPassRates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Marathi\MrPass_Info.aspx.cs">
+      <DependentUpon>MrPass_Info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Marathi\MrPass_Info.aspx.designer.cs">
+      <DependentUpon>MrPass_Info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Marathi\MrPMPML.Master.cs">
+      <DependentUpon>MrPMPML.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Marathi\MrPMPML.Master.designer.cs">
+      <DependentUpon>MrPMPML.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Marathi\MrRTI.aspx.cs">
+      <DependentUpon>MrRTI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Marathi\MrRTI.aspx.designer.cs">
+      <DependentUpon>MrRTI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Marathi\MrTicketPrices.aspx.cs">
+      <DependentUpon>MrTicketPrices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Marathi\MrTicketPrices.aspx.designer.cs">
+      <DependentUpon>MrTicketPrices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MonthlyCharges.aspx.cs">
+      <DependentUpon>MonthlyCharges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MonthlyCharges.aspx.designer.cs">
+      <DependentUpon>MonthlyCharges.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NightService.aspx.cs">
+      <DependentUpon>NightService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NightService.aspx.designer.cs">
+      <DependentUpon>NightService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrgStructure.aspx.cs">
+      <DependentUpon>OrgStructure.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrgStructure.aspx.designer.cs">
+      <DependentUpon>OrgStructure.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PassRates.aspx.cs">
+      <DependentUpon>PassRates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PassRates.aspx.designer.cs">
+      <DependentUpon>PassRates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pass_Info.aspx.cs">
+      <DependentUpon>Pass_Info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pass_Info.aspx.designer.cs">
+      <DependentUpon>Pass_Info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pmpml.Master.cs">
+      <DependentUpon>Pmpml.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pmpml.Master.designer.cs">
+      <DependentUpon>Pmpml.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Privacy.aspx.cs">
+      <DependentUpon>Privacy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Privacy.aspx.designer.cs">
+      <DependentUpon>Privacy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RTI.aspx.cs">
+      <DependentUpon>RTI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RTI.aspx.designer.cs">
+      <DependentUpon>RTI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RTIinfo.aspx.cs">
+      <DependentUpon>RTIinfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RTIinfo.aspx.designer.cs">
+      <DependentUpon>RTIinfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tender.aspx.cs">
+      <DependentUpon>Tender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tender.aspx.designer.cs">
+      <DependentUpon>Tender.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TermsCond.aspx.cs">
+      <DependentUpon>TermsCond.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TermsCond.aspx.designer.cs">
+      <DependentUpon>TermsCond.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TicketPrices.aspx.cs">
+      <DependentUpon>TicketPrices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TicketPrices.aspx.designer.cs">
+      <DependentUpon>TicketPrices.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\css\bootstrap-theme.css.map" />
+    <Content Include="Content\css\bootstrap.css.map" />
+    <Content Include="Content\pdf\BRT_ADVT.pdf" />
+    <Content Include="Content\pdf\Passcentres.pdf" />
+    <Content Include="Content\pdf\studentpass.pdf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\k50.ttf" />
+    <Content Include="fonts\Kruti_Dev.ttf" />
+    <Content Include="fonts\WDEV001.TTF" />
+    <Content Include="Scripts\bootstrap\jquery-1.9.1.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Content\img\favicon%281%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>63157</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:63140/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

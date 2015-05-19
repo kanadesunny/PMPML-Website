@@ -1,0 +1,331 @@
+pune|3159|36|Chinchwad gaon|PMC
+pune|3160|333|Infosys Phase 3 Gawarwadi|Pune Station Depot
+pune|3161|159|PMC|ST Stand Gram Panchayat Talegaon
+pune|3162|2R|Katraj bus stand|Shivajinagar Station
+pune|3163|33|N T wadi|Padmavati Bus stand
+pune|3164|331|Charholi Gaon|Rahatani gaon
+pune|3165|158|Lohoan|PMC Mangala
+pune|3166|2S|Balewadi|Katraj bus stand
+pune|3167|34|Katraj bus stand|Pune University Main Building
+pune|3168|157|Lohoan|Swargate
+pune|3169|39|Dhankawadi|Pune station
+pune|3170|337|Pimpale Saudagar|Pune Station Depot
+pune|3171|37|N T wadi|Sahakar Nagar
+pune|3172|155|Dhanori Gaon|Pune Station Depot
+pune|3173|335|Jambhe|Pune Station Depot
+pune|3174|154|Pune station|Vishrantwadi
+pune|3175|38|Dhankawadi|N T wadi
+pune|3176|152|Mhaske wasti|PMC
+pune|3177|43|Bhakti shakti depot|Katraj bus stand
+pune|3178|3R|Katraj bus stand|Pune station
+pune|3179|42|Bhakti shakti depot|Katraj bus stand
+pune|3180|118A|Suncity|Swargate
+pune|3181|41|Marketyard|Vasantdada Putala
+pune|3182|349|Pimprigaon|Vishrantwadi
+pune|3183|202|Ganpati matha|Hadapsar gadital
+pune|3184|158B|Airport|Deccan Gymkhana
+pune|3185|203|Phursungi|Pune station
+pune|3186|158A|Airport|Deccan Gymkhana
+pune|3187|204|Chinchwad gaon|Hadapsar gadital
+pune|3188|205|Hadapsar gadital|Vasantdada Putala
+pune|3189|200|Sadesataranali|Swargate
+pune|3190|201|Alandi bus stand|Hadapsar gadital
+pune|3191|341|Mohan Nagar|PMC
+pune|3192|22|Sukhsagar Nagar|Surya hospital
+pune|3193|169|Keshavnagar|PMC Mangala
+pune|3194|1R|Hadapsar gadital|Swargate
+pune|3195|23|Pune station|Rajiv Gandhi Nagar Upper Depot
+pune|3196|1S|Mandai|PICT Bharati vidyapeeth
+pune|3197|24|Katraj bus stand|Maharashtra Housing Yerwada
+pune|3198|344|Alandi bus stand|Pimple Nilakh
+pune|3199|25|Pune University Main Building|Rajiv Gandhi Nagar Upper Depot
+pune|3200|166|Gangapuram Mhada|Pune station
+pune|3201|26|Dhankawadi|Pune station
+pune|3202|165|PMC Mangala|Wadgao sheri
+pune|3203|14s|Chinchwad gaon|Nigadi
+pune|3204|207|Saswad stand|Swargate
+pune|3205|27|PICT Bharati vidyapeeth|Shivajinagar Station
+pune|3206|346|Bhosari gaon|Hadapsar gadital
+pune|3207|347|Alandi bus stand|Dapodi Gaon
+pune|3208|168|Keshavnagar|PMC Mangala
+pune|3209|28|PICT Bharati vidyapeeth|Pune University Main Building
+pune|3210|348|Nigadi|Pune station
+pune|3211|167|Hadapsar gadital|Kesanand phata
+pune|3212|29|Alandi bus stand|Swargate
+pune|3213|161|Deccan Gymkhana|Gangapuram Mhada
+pune|3214|3|Pune station|Swargate
+pune|3215|162|Karandi gaon|PMC
+pune|3216|2|Katraj bus stand|Shivajinagar Station
+pune|3217|1|N T wadi|Swargate
+pune|3218|163|Kharadi Gaon|Pune station
+pune|3219|164|Gangapuram Mhada|Mahatma gandhi stand
+pune|3220|15S|Alandi bus stand|Bhosari gaon
+pune|3221|7|Sarasbag|Urali Kanchan
+pune|3222|30|Ghotawale phata|Marketyard
+pune|3223|6|Swargate|Wadgao sheri
+pune|3224|5|Pune station|Swargate
+pune|3225|32|Ramchandranagar|Shivajinagar Station
+pune|3226|31|Padmavati Bus stand|Pune station
+pune|3227|9|Hadapsar gadital|Railway Station Uruli Kanchan
+pune|3228|328A|Nigadi|Rupinagar
+pune|3229|8|Hadapsar gadital|Mhatobachi Alandi
+pune|3230|318|Krushnanagar|Pune station
+pune|3231|215|Ganesh Chowk|Sarasbag
+pune|3232|319|Shirgaon|Vasantdada Putala
+pune|3233|216|Ambegaon|Surya hospital
+pune|3234|19|Shivajinagar Station|Zila Parishad School Yewlewadi
+pune|3235|317|Pune Station Depot|Sambhaji Nagar
+pune|3236|17|Narhe Ambegaon|Surya hospital
+pune|3237|179|Mahatma gandhi stand|Wadachi Wadi
+pune|3238|71A|Rajiv Gandhi Nagar Upper Depot|Shinde farm
+pune|3239|315|Bhosari gaon|Pune Station Depot
+pune|3240|18|Swargate|Wadgaon budruk
+pune|3241|177|Azadnagar|Pune Station Depot
+pune|3242|145A|Pune Station Depot|Sutarwadi
+pune|3243|217|Gujarwadi|Jambhul Wadi
+pune|3244|176|Mahamdwadi Gaon|Swargate
+pune|3245|310|Pimprigaon|Vikasnagar
+pune|3246|13|Khandoba Mandir|Shivajinagar Station
+pune|3247|311|Pimprigaon|Pune Station Depot
+pune|3248|11|Marketyard|Pimple gurav
+pune|3249|12|Bhakti shakti depot|Rajiv Gandhi Nagar Upper Depot
+pune|3250|339A|Idrayani nagar bhosari|PMC
+pune|3251|170|Kondhava Khurd|Pune Station Depot
+pune|3252|21|Sangvi goan|Swargate
+pune|3253|339B|Idrayani nagar bhosari|Pune station
+pune|3254|20|Pune station|Sahakar Nagar
+pune|3255|339C|Idrayani nagar bhosari|PMC
+pune|3256|329A|Dehugaon|Pune Station Depot
+pune|3257|174|NDA gate Kondhva Gate|Pune Station Depot
+pune|3258|16S|Alandi bus stand|YCM
+pune|3259|309A|Alandi bus stand|Dehugaon
+pune|3260|327|Alandi bus stand|Infosys Phase 2
+pune|3261|328|PMC|Rupinagar
+pune|3262|225|Swargate|Wakad Chowk
+pune|3263|329|Dehugaon|Pune Station Depot
+pune|3264|226|Dhayreshwar Mandir|Pune Station Depot
+pune|3265|227|Marketyard|Marnewadi
+pune|3266|323|Chikhali|PMC
+pune|3267|188|Hadapsar gadital|Katraj bus stand
+pune|3268|228|Katraj bus stand|Wadgaon Maval Phata
+pune|3269|187|Hadapsar gadital|Pune station
+pune|3270|229|PICT Bharati vidyapeeth|Vishrantwadi
+pune|3271|325|Masulkar Colony|Pune Station Depot
+pune|3272|189|Hadapsar gadital|Uruli Devachi
+pune|3273|90P|Pandavnagar|Swargate
+pune|3274|320|Alandi bus stand|Mhalunge Gaon
+pune|3275|322|Akurdi rly stn|Katraj bus stand
+pune|3276|80A|Aditya garden city|PMC
+pune|3277|180|Hadapsar gadital|N T wadi
+pune|3278|181|N T wadi|Somaji Khat Karkhana
+pune|3279|183|Hadapsar gadital|Theur factory
+pune|3280|144A|Pune station|Sai sayaji nagar
+pune|3281|184|Phursungi|Swargate
+pune|3282|144B|Kumbare Park|Sainathnagar Mundhava
+pune|3283|185|Hadapsar gadital|Manjari Khurda Avhalwadi Phata
+pune|3284|21N|Pimple Nilakh|Swargate
+pune|3285|79|Ganpati matha|Shivajinagar Station
+pune|3286|117|DSK Vishwa|Swargate
+pune|3287|78|Marketyard|NDA gate Kondhva Gate
+pune|3288|114|Mhalunge Gaon|PMC
+pune|3289|10S|Kumbare Park|Shivajinagar Station
+pune|3290|77|Ganpati matha|Shivajinagar Station
+pune|3291|42A|Bhakti shakti depot|Katraj bus stand
+pune|3292|112|Eklavya polytechnic College|Swargate
+pune|3293|113|A B Chauk Stand|Vasantdada Putala
+pune|3294|110|PMC
+pune|3295|111|Hadapsar gadital|PMC
+pune|3296|7A|Hadapsar gadital|Urali Kanchan
+pune|3297|118|Swargate|Wadgaon budruk
+pune|3298|119|Alandi bus stand|PMC
+pune|3299|57A|Jayprakash Stand Pune station|Suncity
+pune|3300|82|NDA gate Kondhva Gate|PMC
+pune|3301|83|Ganpati matha|PMC
+pune|3302|80|PMC|Popular Nagar Cipla cancer care entre
+pune|3303|81|Kumbare Park|Pune station
+pune|3304|86|kothrud depot|PMC
+pune|3305|87|Deccan Gymkhana|Sutarwadi
+pune|3306|84|Deccan Gymkhana|Sangrun
+pune|3307|7S|Infosys Phase 3 Gawarwadi|Pune Station Depot
+pune|3308|85|Ahire gaon|PMC
+pune|3309|67|Kharadi Gaon|Swargate
+pune|3310|125|Vasantdada Putala|Vishrantwadi
+pune|3311|66|Agalambe Gaon|Marketyard
+pune|3312|126|Mhaske wasti|Pimple Nilakh
+pune|3313|69|Ghotawade gaon|Marketyard
+pune|3314|127|PMC|Wadgaon Maval Phata
+pune|3315|68|kothrud depot|Swargate
+pune|3316|302|PCMT chauk|Pimprigaon
+pune|3317|121|Bhosari gaon|PMC
+pune|3318|122|Chinchwad gaon|PMC
+pune|3319|304|Chinchwad gaon|PCMT chauk
+pune|3320|123|Bhakti shakti depot|PMC
+pune|3321|11S|Deccan Gymkhana|Ghotawale phata
+pune|3322|303|Alandi bus stand|Bhakti shakti depot
+pune|3323|306|Chinchwad gaon|Moshi goan
+pune|3324|305|Nigadi|Wadgaon Maval Phata
+pune|3325|308|Bebadohal|Nigadi
+pune|3326|307|Chintamani Chowk|Pimpri Manapa
+pune|3327|129|Medi point|Pune Station Depot
+pune|3328|309|Alandi bus stand|Dehugaon
+pune|3329|70|Deccan Gymkhana|Paudgoan
+pune|3330|71|kothrud depot|Rajiv Gandhi Nagar Upper Depot
+pune|3331|120|Bajaj Mhalunge|PMC
+pune|3332|72|NDA gate Kondhva Gate|Rajiv Gandhi Nagar Upper Depot
+pune|3333|73|Hadapsar gadital|kothrud depot
+pune|3334|6S|Dange chowk|Pune Station Depot
+pune|3335|75|Deccan Gymkhana|Vidyanagar Swapnaganga bangalow
+pune|3336|11K|Katraj bus stand|Pimple gurav
+pune|3337|76|Kumbare Park|Swargate
+pune|3338|134|Collector kacheri|Vidyanagar Swapnaganga bangalow
+pune|3339|12S|Ishanya Nagari|PMC
+pune|3340|135|PMC Mangala|Wade Bolhai
+pune|3341|132|PMC Mangala|Shubham Society
+pune|3342|59|Maharashtra Housing Niljyoti|Shanipar Bus Stand
+pune|3343|133|PMC Mangala|Sainathnagar Mundhava
+pune|3344|58|Police line Gokhalenagar|Shanipar Bus Stand
+pune|3345|57|Jayprakash Stand Pune station|Wadgaon budruk
+pune|3346|139|Hadapsar gadital|Nigadi jakat naka
+pune|3347|56|Shanipar Bus Stand|Wadgaon budruk
+pune|3348|55|Shanipar Bus Stand|Suncity
+pune|3349|64|Ganpati matha|Swargate
+pune|3350|5S|Jayprakash Stand Pune station|Kesanand phata
+pune|3351|65|Maharashtra Housing Yerwada|Rajiv Gandhi Nagar Upper Depot
+pune|3352|62|Marketyard|Sangamwadi gaon
+pune|3353|63|Kalyani nagar|Swargate
+pune|3354|60|Pune University Main Building|Swargate
+pune|3355|131|Pune station|Wadgaon Shinde
+pune|3356|61|Bhairoba Mandir Nasarapur|Katraj bus stand
+pune|3357|130|Shivajinagar Station|Zila Parishad School Yewlewadi
+pune|3358|49|Jayprakash Stand Pune station|Khanapur
+pune|3359|143|Pune station|Warje jakatnaka
+pune|3360|48|Jayprakash Stand Pune station|Venutai College
+pune|3361|144|Kothrud Stand|Pune station
+pune|3362|13S|Akurdi rly stn|Nigadi
+pune|3363|145|D2 Circle|Pune Station Depot
+pune|3364|146|Jayprakash Stand Pune station|Police line Gokhalenagar
+pune|3365|45|Swargate|Vidyanagar Swapnaganga bangalow
+pune|3366|147|Nhavi Sandas|PMC Mangala
+pune|3367|148|Hadapsar gadital|Pimple gurav
+pune|3368|3S|Katraj bus stand|Mandai
+pune|3369|47|Sanaswadi Nandoshi|Surya hospital
+pune|3370|149|Hadapsar gadital|Pimpri chauk Bus stop
+pune|3371|46|Lohoan|Swargate
+pune|3372|326B|Chikhali|Pimprigaon
+pune|3373|326A|Chikhali|Pimprigaon
+pune|3374|51|Dhayreshwar Mandir|Shivajinagar Station
+pune|3375|52|Surya hospital|Wardade
+pune|3376|94A|Kumbare Park|Wadgao sheri
+pune|3377|53|DSK Vishwa|Surya hospital
+pune|3378|54|Surya hospital|Venutai College
+pune|3379|4S|Alandi bus stand|Pune Station Depot
+pune|3380|13L|Rajiv Gandhi Nagar Upper Depot|Shivajinagar Station
+pune|3381|140|Central building|Rajiv Gandhi Nagar Upper Depot
+pune|3382|50|Sinhgad Payth Aatekar wasti|Surya hospital
+pune|3383|141|Khandoba Mandir|Pune station
+pune|3384|281|Bhakti shakti depot|Ganpati matha
+pune|3385|284|Bhakti shakti depot|Kothrud depot
+pune|3386|283|Kumbare Park|Pune station
+pune|3387|87A|Deccan Gymkhana|Sutarwadi
+pune|3388|282|Bhosari gaon|Ganpati matha
+pune|3389|276|Chinchwad gaon|Ganpati matha
+pune|3390|277|Khadki Bazar|NDA gate Kondhava gate
+pune|3391|278|Katraj bus stand|kothrud depot
+pune|3392|9S|Swargate|Warje jakatnaka
+pune|3393|312B|Chinchwad gaon|Pune Station Depot
+pune|3394|312A|Chinchwad gaon|Pune Station Depot
+pune|3395|109|PMC
+pune|3396|108|Pune station|Sutardara
+pune|3397|107|Deccan Gymkhana|Pimple gurav
+pune|3398|105|Deccan Gymkhana|Medi point
+pune|3399|331A|PCMT chauk|Rahatani gaon
+pune|3400|103|Katraj bus stand|kothrud depot
+pune|3401|102|Kothrud depot|Lohoan
+pune|3402|101|kothrud depot|Somaji Khat Karkhana
+pune|3403|100|Infosys Phase 3 Gawarwadi|PMC
+pune|3404|97|Ganpati matha|Sahakar Nagar
+pune|3405|96|Ganpati matha|Pimple gurav
+pune|3406|68S|Sutardara|Swargate
+pune|3407|95|Kothrud depot|Pimple gurav
+pune|3408|94|Kothrud depot|Pune station
+pune|3409|8S|Pabal Phata|PMC Mangala
+pune|3410|93|Deccan Gymkhana|Pimple Nilakh
+pune|3411|332A|Pimpri chauk Bus stand|Pune Station Depot
+pune|3412|90|Police line Gokhalenagar|Swargate
+pune|3413|294|Katraj bus stand|Khadakwasla Dharan
+pune|3414|293|Katraj bus stand|Khedshivapur Highschool
+pune|3415|322A|Akurdi rly stn|Ganpati matha
+pune|3416|296|Jambhul Wadi|Shivajinagar Station
+pune|3417|322B|Akurdi rly stn|Pune station
+pune|3418|295|Katraj bus stand|Pune station
+pune|3419|311A|Pimprigaon|Pune Station Depot
+pune|3420|291|Hadapsar gadital|Katraj bus stand
+pune|3421|297|Rajas Soc.|Shivajinagar Station
+pune|3422|298|Chinchwad gaon|Katraj bus stand
+pune|3423|299|Bhosari gaon|Katraj bus stand
+pune|3424|332B|Pimpri Manapa|Pune Station Depot
+pune|3425|301H|Hadapsar gadital|Katraj bus stand
+pune|3426|207A|Hadapsar gadital|Saswad stand
+pune|3427|301K|Hadapsar gadital|Katraj bus stand
+pune|3428|139A|Bhakti shakti depot|Hadapsar gadital
+pune|3429|68P|Kothrud depot|Swargate
+pune|3430|58P|Pandavnagar|Shanipar Bus Stand
+pune|3431|88|Medi point|Swargate
+pune|3432|89|Maharashtra Housing Niljyoti|Swargate
+pune|3433|240|Khanapur|Marketyard
+pune|3434|195|Hadapsar gadital|Holkarwadi
+pune|3435|114A|Hadapsar gadital|Mhalunge Gaon
+pune|3436|197|Hadapsar gadital|kothrud depot
+pune|3437|196|Kaleborate Nagar|Swargate
+pune|3438|191|Kondhava Hospital|Pune Station Depot
+pune|3439|190|Hadapsar gadital|Phursungi
+pune|3440|192|Hadapsar gadital|Undrigaon
+pune|3441|198|Hadapsar gadital|Manjri bu.
+pune|3442|291A|Bibwewadi|Hadapsar gadital
+pune|3443|230|PICT Bharati vidyapeeth|Pune station
+pune|3444|205P|Collector kacheri|Vasantdada Putala
+pune|3445|370|Pimpri chauk Bus stand|Shagun chauk
+pune|3446|371|Pimpri chauk Bus stand|Pimpri chauk Bus stop
+pune|3447|372|Infosys Phase 3 Gawarwadi|Nigadi
+pune|3448|113B|Pimple gurav|PMC
+pune|3449|113A|A B Chauk Stand|Pimple gurav
+pune|3450|133A|Anandpark Kharadi|PMC Mangala
+pune|3451|155A|Munjaba Vasti|Pune station
+pune|3452|376|Katraj bus stand|Nigadi
+pune|3453|234|Kharadi Gaon|PMC Mangala
+pune|3454|233|Marketyard|Paudgoan
+pune|3455|236|Khule Wadi|PMC Mangala
+pune|3456|235|Katraj bus stand|Kharadi Gaon
+pune|3457|123A|Akurdi rly stn|PMC
+pune|3458|237|Ganpati matha|Kharadi Gaon
+pune|3459|262|Dehugaon|PMC
+pune|3460|168P|Keshavnagar|Pune Station Depot
+pune|3461|292R|Rahatawade Gaon|Swargate
+pune|3462|292K|Shivnarwadi|Swargate
+pune|3463|360|Alandi bus stand|Balewadi
+pune|3464|366|Nigadi|Pune Station Depot
+pune|3465|363|Kiwale|Nigadi
+pune|3466|368|Alandi bus stand|Phulgaon Phata
+pune|3467|367|Nigadi|PCMT chauk
+pune|3468|264|Bahulgaon|PMC
+pune|3469|376B|Hadapsar gadital|Nigadi
+pune|3470|203P|Central building|Hadapsar gadital
+pune|3471|315A|Bhosari gaon|Sasoon hospital
+pune|3472|252|Alandi bus stand|PMC
+pune|3473|121A|Bhosari gaon|PMC
+pune|3474|350|Dehugaon|Nigadi
+pune|3475|351|Alandi bus stand|Jambhe
+pune|3476|353|Dehugaon|Pimprigaon
+pune|3477|355|Chikhali|Dange chowk
+pune|3478|354|Marketyard|Pimprigaon
+pune|3479|357|Pune station|Rajgurunagar Khed
+pune|3480|358|Pimpri chauk Bus stand|Rajgurunagar Khed
+pune|3481|64A|Ganpati matha|Swargate
+pune|3482|346A|Bhosari gaon|Hadapsar gadital
+pune|3483|257|Markal Gaon|PMC Mangala
+pune|3484|115P|Infosys Phase 3 Gawarwadi|Pune Station Depot
+pune|3485|292A|Kondhanpur Gaon|Swargate
+pune|3486|187C|Central building|Kalubai mandir
+pune|3487|253|PMC|Vidyanagar Swapnaganga bangalow
+pune|3488|256|Mojhe Vidyalay|PMC
+pune|3489|376A|Ganpati matha|Nigadi
